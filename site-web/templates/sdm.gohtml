@@ -7,7 +7,7 @@
         <link href="/static/sdm.css" rel="stylesheet">
     </head>
     <body>
-    <h1><a href="/" class="back-button">Retour</a>Détails de la musique</h1>
+    <h1><a href="/" class="back-button"><img class ="retour" src="/static/fleche-droite.png">Retour</a>Détails de la musique</h1>
     <div class="sound-details">
         <h2>Bolide allemand</h2>
         <p><strong>Artiste:</strong> {{ range .Artists }}{{ .Name }} {{ end }}</p>
@@ -16,7 +16,7 @@
         <p><a href="{{ .ExternalURLs.Spotify }}" target="_blank">Lien</a></p>
         {{ range $index, $image := .Album.Images }}
             {{ if eq $index 1 }}
-                <img src="{{ $image.URL }}" alt="Image">
+                <img class="sdm" src="{{ $image.URL }}" alt="Image">
             {{ end }}
         {{ end }}
 

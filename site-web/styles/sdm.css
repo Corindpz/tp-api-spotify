@@ -1,0 +1,66 @@
+@font-face {
+    font-family: SuperWoobly;
+    src: url(SuperWoobly-8MJlz.ttf);
+}
+
+@font-face {
+    font-family: Cheese;
+    src: url(MouldyCheeseRegular-WyMWG.ttf)
+}
+
+body {
+    background-color: #1ED760;
+    font-family: SuperWoobly;
+    border: black solid 10px;
+    margin: 5%;
+    width: 90%;
+    border-radius: 70px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+span {
+    margin-top: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: solid black 4px;
+    padding: 5px;
+    border-radius: 60px;
+    max-width: 10%;
+    margin-right: 2%;
+}
+
+.retour {
+    width: 16%;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+p {
+    padding: 2%;
+    display: inline-block;
+    width: 25%;
+    font-size: 1.5em;
+    font-family: Cheese;
+    margin-left: 4%;
+}
+
+h2 {
+    margin-left: 2%;
+    font-size: 3rem;
+    font-family: Cheese;
+}
+
+.sdm {
+    margin-left: 4%;
+}
