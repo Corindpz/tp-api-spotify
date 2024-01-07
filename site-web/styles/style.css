@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SuperWoobly;
+    src: url(SuperWoobly-8MJlz.ttf);
+}
+
+body {
+    background-color: #1ED760;
+    font-family: SuperWoobly;
+    border: black solid 10px;
+    margin: 5%;
+    width: 90%;
+    border-radius: 70px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 35px;
+    text-shadow: rgb(46, 45, 45) 10px 4px 7px;
+}
+
+.boutons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    text-decoration: none;
+    color: black;
+    border: solid black 5px;
+    border-radius: 120px;
+    width: 10%;
+    font-size: 25px;
+}
+
+.links:hover {
+    background-color: black;
+    color: #1ED760;
+}
+
+.logo {
+    width: 3%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.icons {
+    width: 22%;
+    padding-left: 15px;
+}
